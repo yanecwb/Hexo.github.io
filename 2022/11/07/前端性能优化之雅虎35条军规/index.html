@@ -21,17 +21,21 @@
     var CONFIG = {"hostname":"flechazoblog.site","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10,"index_generator":{"per_page":10},"archive_generator":{"per_page":10},"tag_generator":{"per_page":10}}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="这是Flechazo使用Hexo创建的博客，不仅仅记录技术、知识，也记录生活。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Flechazo">
-<meta property="og:url" content="http://flechazoblog.site/archives/index.html">
+  <meta name="description" content="一、页面内容  减少HTTP请求数 减少DNS查询 避免重定向 缓存Ajax请求 延迟加载 预加载 减少DOM元素数量 划分内容到不同域名 尽量减少iframe的使用 避免404错误">
+<meta property="og:type" content="article">
+<meta property="og:title" content="前端性能优化之雅虎35条军规">
+<meta property="og:url" content="http://flechazoblog.site/2022/11/07/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E9%9B%85%E8%99%8E35%E6%9D%A1%E5%86%9B%E8%A7%84/index.html">
 <meta property="og:site_name" content="Flechazo">
-<meta property="og:description" content="这是Flechazo使用Hexo创建的博客，不仅仅记录技术、知识，也记录生活。">
+<meta property="og:description" content="一、页面内容  减少HTTP请求数 减少DNS查询 避免重定向 缓存Ajax请求 延迟加载 预加载 减少DOM元素数量 划分内容到不同域名 尽量减少iframe的使用 避免404错误">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-11-07T08:00:00.000Z">
+<meta property="article:modified_time" content="2023-02-18T09:22:38.699Z">
 <meta property="article:author" content="Flechazo">
+<meta property="article:tag" content="性能优化">
+<meta property="article:tag" content="雅虎35条军规">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://flechazoblog.site/archives/">
+<link rel="canonical" href="http://flechazoblog.site/2022/11/07/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E9%9B%85%E8%99%8E35%E6%9D%A1%E5%86%9B%E8%A7%84/">
 
 
 <script id="page-configurations">
@@ -39,12 +43,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | Flechazo</title>
+  <title>前端性能优化之雅虎35条军规 | Flechazo</title>
   
 
 
@@ -162,213 +166,166 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 9 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://flechazoblog.site/2022/11/07/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E9%9B%85%E8%99%8E35%E6%9D%A1%E5%86%9B%E8%A7%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="http://www.flechazoblog.site:5006/img/3ccc1ce0-fb83-11ec-8f56-fd0c24eebc3f.png">
+      <meta itemprop="name" content="Flechazo">
+      <meta itemprop="description" content="这是Flechazo使用Hexo创建的博客，不仅仅记录技术、知识，也记录生活。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Flechazo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          前端性能优化之雅虎35条军规
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-11-07 16:00:00" itemprop="dateCreated datePublished" datetime="2022-11-07T16:00:00+08:00">2022-11-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-02-18 17:22:38" itemprop="dateModified" datetime="2023-02-18T17:22:38+08:00">2023-02-18</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index"><span itemprop="name">前端</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2023</span>
-    </div>
+        <h5 >一、页面内容</h5>
+<ol>
+<li style='font-size:14px'>减少HTTP请求数</li>
+<li style='font-size:14px'>减少DNS查询</li>
+<li style='font-size:14px'>避免重定向</li>
+<li style='font-size:14px'>缓存Ajax请求</li>
+<li style='font-size:14px'>延迟加载</li>
+<li style='font-size:14px'>预加载</li>
+<li style='font-size:14px'>减少DOM元素数量</li>
+<li style='font-size:14px'>划分内容到不同域名</li>
+<li style='font-size:14px'>尽量减少iframe的使用</li>
+<li style='font-size:14px'>避免404错误</li>
+</ol>
+<span id="more"></span>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-02-17T15:16:23+08:00"
-              content="2023-02-17">
-          02-17
-        </time>
-      </div>
+<h5 >二、服务器</h5>
+<ol>
+<li style='font-size:14px'>使用CDN</li>
+<li style='font-size:14px'>添加Expires或Cache-Control响应头</li>
+<li style='font-size:14px'>启用Gzip</li>
+<li style='font-size:14px'>配置 Etag</li>
+<li style='font-size:14px'>尽早输出（flush）缓冲</li>
+<li style='font-size:14px'>Ajax请求使用GET方法</li>
+<li style='font-size:14px'>避免图片src为空</li>
+</ol>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/02/17/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
 
-    </header>
-  </article>
+<h5 >三、Cookie</h5>
+<ol>
+<li style='font-size:14px'>减少 Cookie 大小</li>
+<li style='font-size:14px'>静态资源使用无Cookie域名</li>
+</ol>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2023-02-13T17:06:39+08:00"
-              content="2023-02-13">
-          02-13
-        </time>
-      </div>
+<h5>四、CSS</h5>
+<ol>
+<li style='font-size:14px'>把样式表放在<code>&lt;head&gt;</code>中</li>
+<li style='font-size:14px'>不要使用CSS表达式</li>
+<li style='font-size:14px'>使用<code>&lt;link&gt;</code>替代<code>@import</code></li>
+<li style='font-size:14px'>不要使用 filter</li>
+</ol>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2023/02/13/%E5%85%B3%E4%BA%8Eecharts%E4%BD%BF%E7%94%A8geo%E5%88%B6%E4%BD%9C%E5%9C%B0%E5%9B%BEtooltip%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/" itemprop="url">
-            <span itemprop="name">echarts使用geo制作地图tooltip不显示问题</span>
-          </a>
-      </div>
+<h5>五、Javasript</h5>
+<ol>
+<li style='font-size:14px'>把脚本放在页面底部</li>
+<li style='font-size:14px'>使用外部JavaScript和CSS</li>
+<li style='font-size:14px'>压缩JavaScript和CSS</li>
+<li style='font-size:14px'>移除重复脚本</li>
+<li style='font-size:14px'>减少DOM操作</li>
+<li style='font-size:14px'>使用高效的事件处理</li>
+</ol>
 
-    </header>
-  </article>
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
-    </div>
+<h5>六、图片</h5>
+<ol>
+<li style='font-size:14px'>优化图片(同质压缩，精灵图)</li>
+<li style='font-size:14px'>优化CSS Sprite</li>
+<li style='font-size:14px'>不要在HTML中缩放图片</li>
+<li style='font-size:14px'>使用体积小、可缓存的favicon.ico</li>
+</ol>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-12-21T17:25:26+08:00"
-              content="2022-12-21">
-          12-21
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/12/21/div%E7%AD%89%E5%AE%B9%E5%99%A8keydown%E4%BA%8B%E4%BB%B6%E6%97%A0%E6%95%88/" itemprop="url">
-            <span itemprop="name">div等容器keydown事件无效</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-12-12T11:24:52+08:00"
-              content="2022-12-12">
-          12-12
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/12/12/dayjs/" itemprop="url">
-            <span itemprop="name">dayjs</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-11-07T16:00:00+08:00"
-              content="2022-11-07">
-          11-07
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/11/07/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E9%9B%85%E8%99%8E35%E6%9D%A1%E5%86%9B%E8%A7%84/" itemprop="url">
-            <span itemprop="name">前端性能优化之雅虎35条军规</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-11-07T15:34:52+08:00"
-              content="2022-11-07">
-          11-07
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/11/07/HTTP%E7%8A%B6%E6%80%81%E7%A0%81%E5%A4%A7%E5%85%A8/" itemprop="url">
-            <span itemprop="name">http状态码大全(常见 code: 含义查询)</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-08-23T14:58:44+08:00"
-              content="2022-08-23">
-          08-23
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/08/23/window%E4%BC%9A%E5%85%A8%E5%B1%80%E6%B3%A8%E5%85%A5-nuxt/" itemprop="url">
-            <span itemprop="name">window会全局注入$nuxt</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-08-22T14:14:09+08:00"
-              content="2022-08-22">
-          08-22
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/08/22/Nuxt3%E5%AE%89%E8%A3%85Tailwincss%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" itemprop="url">
-            <span itemprop="name">Nuxt3安装Tailwincss遇到的问题</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-08-16T11:01:04+08:00"
-              content="2022-08-16">
-          08-16
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/08/16/%E8%8E%B7%E5%8F%96%E5%AE%A2%E6%88%B7%E7%AB%AFFPS/" itemprop="url">
-            <span itemprop="name">获取客户端FPS</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
+<h5>七、移动端</h5>
+<ol>
+<li style='font-size:14px'>保证所有组件都小于25K</li>
+<li style='font-size:14px'>打包内容为分段（multipart）文档</li>
+</ol>
 
 
     </div>
-  </div>
-  
-  
-  
 
+    
+    
+    
+
+      <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/" rel="tag"><i class="fa fa-tag"></i> 性能优化</a>
+              <a href="/tags/%E9%9B%85%E8%99%8E35%E6%9D%A1%E5%86%9B%E8%A7%84/" rel="tag"><i class="fa fa-tag"></i> 雅虎35条军规</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/11/07/HTTP%E7%8A%B6%E6%80%81%E7%A0%81%E5%A4%A7%E5%85%A8/" rel="prev" title="http状态码大全(常见 code: 含义查询)">
+      <i class="fa fa-chevron-left"></i> http状态码大全(常见 code: 含义查询)
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/12/12/dayjs/" rel="next" title="dayjs">
+      dayjs <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -421,6 +378,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link"><span class="nav-number">1.</span> <span class="nav-text">一、页面内容</span></a></li><li class="nav-item nav-level-5"><a class="nav-link"><span class="nav-number">2.</span> <span class="nav-text">二、服务器</span></a></li><li class="nav-item nav-level-5"><a class="nav-link"><span class="nav-number">3.</span> <span class="nav-text">三、Cookie</span></a></li><li class="nav-item nav-level-5"><a class="nav-link"><span class="nav-number">4.</span> <span class="nav-text">四、CSS</span></a></li><li class="nav-item nav-level-5"><a class="nav-link"><span class="nav-number">5.</span> <span class="nav-text">五、Javasript</span></a></li><li class="nav-item nav-level-5"><a class="nav-link"><span class="nav-number">6.</span> <span class="nav-text">六、图片</span></a></li><li class="nav-item nav-level-5"><a class="nav-link"><span class="nav-number">7.</span> <span class="nav-text">七、移动端</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

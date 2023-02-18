@@ -21,16 +21,17 @@
     var CONFIG = {"hostname":"flechazoblog.site","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10,"index_generator":{"per_page":10},"archive_generator":{"per_page":10},"tag_generator":{"per_page":10}}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="123456789101112131415161718192021222324;(function () &amp;#123;var requestAnimationFrame &#x3D; window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame ||    windo">
+  <meta name="description" content="1234567891011121314151617181920212223;(function () &amp;#123;var requestAnimationFrame &#x3D; window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame ||    window.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="获取客户端FPS">
 <meta property="og:url" content="http://flechazoblog.site/2022/08/16/%E8%8E%B7%E5%8F%96%E5%AE%A2%E6%88%B7%E7%AB%AFFPS/index.html">
 <meta property="og:site_name" content="Flechazo">
-<meta property="og:description" content="123456789101112131415161718192021222324;(function () &amp;#123;var requestAnimationFrame &#x3D; window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame ||    windo">
+<meta property="og:description" content="1234567891011121314151617181920212223;(function () &amp;#123;var requestAnimationFrame &#x3D; window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame ||    window.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-08-16T03:01:04.000Z">
-<meta property="article:modified_time" content="2023-02-18T06:12:44.683Z">
+<meta property="article:modified_time" content="2023-02-18T08:47:27.023Z">
 <meta property="article:author" content="Flechazo">
+<meta property="article:tag" content="FPS">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://flechazoblog.site/2022/08/16/%E8%8E%B7%E5%8F%96%E5%AE%A2%E6%88%B7%E7%AB%AFFPS/">
@@ -128,12 +129,17 @@
   </li>
         <li class="menu-item menu-item-档案">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>档案</a>
+    <a href="/archives/" rel="section"><i class="fa fa-zhihu fa-fw"></i>档案</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
   </ul>
@@ -196,8 +202,17 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-02-18 14:12:44" itemprop="dateModified" datetime="2023-02-18T14:12:44+08:00">2023-02-18</time>
+                <time title="修改时间：2023-02-18 16:47:27" itemprop="dateModified" datetime="2023-02-18T16:47:27+08:00">2023-02-18</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%89%8D%E7%AB%AF/" itemprop="url" rel="index"><span itemprop="name">前端</span></a>
+                </span>
+            </span>
 
           
 
@@ -210,7 +225,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">;(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line"><span class="keyword">var</span> requestAnimationFrame = <span class="variable language_">window</span>.<span class="property">requestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">webkitRequestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">mozRequestAnimationFrame</span> ||</span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">oRequestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">msRequestAnimationFrame</span> || <span class="keyword">function</span> (<span class="params">callback</span>) &#123;</span><br><span class="line">        <span class="variable language_">window</span>.<span class="built_in">setTimeout</span>(callback, <span class="number">1000</span> / <span class="number">60</span>);</span><br><span class="line">    &#125;;</span><br><span class="line"><span class="keyword">var</span> fps, last, offset, step, appendFps;</span><br><span class="line">fps = <span class="number">0</span>;</span><br><span class="line">last = <span class="title class_">Date</span>.<span class="title function_">now</span>();</span><br><span class="line">step = <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    offset = <span class="title class_">Date</span>.<span class="title function_">now</span>() - last;</span><br><span class="line">    fps += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (offset &gt;= <span class="number">1000</span>) &#123;</span><br><span class="line">        last += offset;</span><br><span class="line">        <span class="title function_">appendFps</span>(fps);</span><br><span class="line">        fps = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">requestAnimationFrame</span>(step);</span><br><span class="line">&#125;;</span><br><span class="line">appendFps = <span class="keyword">function</span> (<span class="params">fps</span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;#fps&#x27;</span>).<span class="property">innerHTML</span> = fps + <span class="string">&#x27;FPS&#x27;</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="title function_">step</span>();</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure>
+        <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">;(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line"><span class="keyword">var</span> requestAnimationFrame = <span class="variable language_">window</span>.<span class="property">requestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">webkitRequestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">mozRequestAnimationFrame</span> ||</span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">oRequestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">msRequestAnimationFrame</span> || <span class="keyword">function</span> (<span class="params">callback</span>) &#123;</span><br><span class="line">        <span class="variable language_">window</span>.<span class="built_in">setTimeout</span>(callback, <span class="number">1000</span> / <span class="number">60</span>);</span><br><span class="line">    &#125;;</span><br><span class="line"><span class="keyword">var</span> fps, last, offset, step, appendFps;</span><br><span class="line">fps = <span class="number">0</span>;</span><br><span class="line">last = <span class="title class_">Date</span>.<span class="title function_">now</span>();</span><br><span class="line">step = <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    offset = <span class="title class_">Date</span>.<span class="title function_">now</span>() - last;</span><br><span class="line">    fps += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (offset &gt;= <span class="number">1000</span>) &#123;</span><br><span class="line">        last += offset;</span><br><span class="line">        <span class="title function_">appendFps</span>(fps);</span><br><span class="line">        fps = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">requestAnimationFrame</span>(step);</span><br><span class="line">&#125;;</span><br><span class="line">appendFps = <span class="keyword">function</span> (<span class="params">fps</span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;#fps&#x27;</span>).<span class="property">innerHTML</span> = fps + <span class="string">&#x27;FPS&#x27;</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="title function_">step</span>();</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -219,6 +234,10 @@
     
 
       <footer class="post-footer">
+          
+          <div class="post-tags">
+              <a href="/tags/FPS/" rel="tag"><i class="fa fa-tag"></i> FPS</a>
+          </div>
 
         
 
@@ -227,8 +246,8 @@
     <div class="post-nav">
       <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2023/02/17/hello-world/" rel="next" title="Hello World">
-      Hello World <i class="fa fa-chevron-right"></i>
+    <a href="/2022/08/22/Nuxt3%E5%AE%89%E8%A3%85Tailwincss%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" rel="next" title="Nuxt3安装Tailwincss遇到的问题">
+      Nuxt3安装Tailwincss遇到的问题 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -302,9 +321,21 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
           <a href="/archives">
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
