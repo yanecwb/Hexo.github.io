@@ -2,7 +2,6 @@
 !function (window) {
     window.onload = ()=>{
         const btnCopyAll = document.querySelectorAll('.copy-btn')
-        console.log(btnCopyAll);
         Array.from(btnCopyAll).forEach(btnCopy=>{
             btnCopy.onmousedown = function(){
                 alert('复制成功')
