@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>http状态码大全(常见 code: 含义查询)</title>
+    <url>/2022/11/07/HTTP%E7%8A%B6%E6%80%81%E7%A0%81%E5%A4%A7%E5%85%A8/</url>
+    <content><![CDATA[<h4 id="200"><a href="#200" class="headerlink" title="200"></a>200</h4><table>
+<thead>
+<tr>
+<th align="left">状态码</th>
+<th align="left">英文说明</th>
+<th align="left">Http状态码含义中文说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">200</td>
+<td align="left">OK</td>
+<td align="left">请求成功</td>
+</tr>
+<tr>
+<td align="left">201</td>
+<td align="left">Created</td>
+<td align="left">请求已被接受，但尚未处理</td>
+</tr>
+<tr>
+<td align="left">203</td>
+<td align="left">Non-Authoritative</td>
+<td align="left">请求已成功处理，结果来自第三方拷贝</td>
+</tr>
+<tr>
+<td align="left">204</td>
+<td align="left">No Content</td>
+<td align="left">请求已成功处理，但无返回内容</td>
+</tr>
+<tr>
+<td align="left">205</td>
+<td align="left">Reset Content</td>
+<td align="left">请求已成功处理，但需重置内容</td>
+</tr>
+<tr>
+<td align="left">206</td>
+<td align="left">Partial Content</td>
+<td align="left">请求已成功处理，但仅返回了部分内容</td>
+</tr>
+<tr>
+<td align="left">207</td>
+<td align="left">Multi-Status</td>
+<td align="left">请求已成功处理，返回了多个状态的XML消息</td>
+</tr>
+<tr>
+<td align="left">208</td>
+<td align="left">Already Reported</td>
+<td align="left">响应已发送</td>
+</tr>
+</tbody></table>
+<span id="more"></span>
+
+<h4 id="300"><a href="#300" class="headerlink" title="300"></a>300</h4><table>
+<thead>
+<tr>
+<th>状态码</th>
+<th>英文说明</th>
+<th>Http状态码含义中文说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>300</td>
+<td>Multiple Choices</td>
+<td>返回多条重定向供选择</td>
+</tr>
+<tr>
+<td>301</td>
+<td>Moved Permanently</td>
+<td>永久重定向</td>
+</tr>
+<tr>
+<td>302</td>
+<td>Non-Authoritative</td>
+<td>临时重定向</td>
+</tr>
+<tr>
+<td>303</td>
+<td>No Content</td>
+<td>请当前请求的资源在其它地址</td>
+</tr>
+<tr>
+<td>305</td>
+<td>Reset Content</td>
+<td>请求资源与本地缓存相同，未修改</td>
+</tr>
+</tbody></table>
+<h4 id="400"><a href="#400" class="headerlink" title="400"></a>400</h4><table>
+<thead>
+<tr>
+<th align="left">状态码</th>
+<th align="left">英文说明</th>
+<th align="left">Http状态码含义中文说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">400</td>
+<td align="left">Bad Request</td>
+<td align="left">请求错误，通常是访问的域名未绑定引起</td>
+</tr>
+<tr>
+<td align="left">403</td>
+<td align="left">Forbidden</td>
+<td align="left">禁止访问</td>
+</tr>
+<tr>
+<td align="left">404</td>
+<td align="left">Not Found</td>
+<td align="left">请求的内容未找到或已删除</td>
+</tr>
+<tr>
+<td align="left">408</td>
+<td align="left">Request Timeout</td>
+<td align="left">请求超时</td>
+</tr>
+<tr>
+<td align="left">413</td>
+<td align="left">Payload Too Large</td>
+<td align="left">请求的实体过大</td>
+</tr>
+<tr>
+<td align="left">405</td>
+<td align="left">Not Allowed</td>
+<td align="left">无法处理的媒体格式</td>
+</tr>
+<tr>
+<td align="left">415</td>
+<td align="left">Unsupported Media Type</td>
+<td align="left">求行中指定的请求方法不能被用于请求相应的资源。不允许上述请求方法。</td>
+</tr>
+</tbody></table>
+<h4 id="500"><a href="#500" class="headerlink" title="500"></a>500</h4><table>
+<thead>
+<tr>
+<th align="left">状态码</th>
+<th align="left">英文说明</th>
+<th align="left">Http状态码含义中文说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">500</td>
+<td align="left">Internal Server Error</td>
+<td align="left">服务器端程序错误</td>
+</tr>
+<tr>
+<td align="left">501</td>
+<td align="left">Not Implemented</td>
+<td align="left">服务器不支持的请求方法</td>
+</tr>
+<tr>
+<td align="left">503</td>
+<td align="left">Service Unavailable</td>
+<td align="left">服务器端临时错误</td>
+</tr>
+<tr>
+<td align="left">599</td>
+<td align="left">Network Connect Timeout Error</td>
+<td align="left">网络连接超时</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>后端</category>
+      </categories>
+      <tags>
+        <tag>Http Code</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>div等容器keydown事件无效</title>
+    <url>/2022/12/21/div%E7%AD%89%E5%AE%B9%E5%99%A8keydown%E4%BA%8B%E4%BB%B6%E6%97%A0%E6%95%88/</url>
+    <content><![CDATA[<p><font size='2'>与键盘交互的事件大多是表单元素，包括keydown&#x2F;keyup。但往往封转的组件没有表单元素或者有其他用途，这时候就得在其他元素上绑定如上类似事件…</font></p>
+<span id="more"></span>
+
+<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><ul>
+<li>利用全局监听</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">window</span>.<span class="property">onKeydown</span></span><br><span class="line"><span class="variable language_">document</span>.<span class="property">onkeydown</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><ul>
+<li>利用contenteditable属性，让容器可编辑。</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">ref</span>=<span class="string">&quot;escEvent&quot;</span> <span class="attr">contenteditable</span>=<span class="string">&quot;true&quot;</span> <span class="attr">class</span>=<span class="string">&quot;fixed&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">div</span> @<span class="attr">click</span>=<span class="string">&quot;hideImg&quot;</span> <span class="attr">ref</span>=<span class="string">&quot;escEvent&quot;</span> <span class="attr">contenteditable</span>=<span class="string">&quot;false&quot;</span> <span class="attr">class</span>=<span class="string">&quot;top-0 flex &quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>需要注意的是要提前focus()</p>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">this</span>.<span class="property">$refs</span>.<span class="property">escEvent</span>.<span class="title function_">focus</span>()</span><br><span class="line"><span class="variable language_">this</span>.<span class="property">$refs</span>.<span class="property">escEvent</span>.<span class="property">onkeydown</span> = <span class="function">(<span class="params">event</span>)=&gt;</span>&#123;</span><br><span class="line"><span class="keyword">if</span>(event.<span class="property">key</span> == <span class="string">&#x27;Escape&#x27;</span>)&#123;</span><br><span class="line">   <span class="variable language_">this</span>.<span class="title function_">hideImg</span>()</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>事件</tag>
+        <tag>keydown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/08/02/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><span id="more"></span>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>dayjs</title>
+    <url>/2022/12/12/dayjs/</url>
+    <content><![CDATA[<p><font size='2'>dayjs取 本周、上周、本月、上月、本季度、上季度时间段…</font></p>
+<h5 id=""><a href="#" class="headerlink" title=""></a></h5><span id="more"></span>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> dateTimes = [</span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">id</span>: <span class="number">1</span>,</span><br><span class="line">          <span class="attr">name</span>: <span class="string">&#x27;本周&#x27;</span>,</span><br><span class="line">          <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">startOf</span>(<span class="string">&#x27;week&#x27;</span>).<span class="title function_">add</span>(<span class="number">1</span>, <span class="string">&#x27;day&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">endOf</span>(<span class="string">&#x27;week&#x27;</span>).<span class="title function_">add</span>(<span class="number">1</span>, <span class="string">&#x27;day&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">id</span>: <span class="number">2</span>,</span><br><span class="line">          <span class="attr">name</span>: <span class="string">&#x27;上周&#x27;</span>,</span><br><span class="line">          <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">add</span>(-<span class="number">1</span>, <span class="string">&#x27;week&#x27;</span>).<span class="title function_">startOf</span>(<span class="string">&#x27;week&#x27;</span>).<span class="title function_">add</span>(<span class="number">1</span>, <span class="string">&#x27;day&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">add</span>(-<span class="number">1</span>, <span class="string">&#x27;week&#x27;</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;week&#x27;</span>).<span class="title function_">add</span>(<span class="number">1</span>, <span class="string">&#x27;day&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">id</span>: <span class="number">3</span>,</span><br><span class="line">          <span class="attr">name</span>: <span class="string">&#x27;本月&#x27;</span>,</span><br><span class="line">          <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">startOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>) ,</span><br><span class="line">          <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          <span class="attr">id</span>: <span class="number">4</span>,</span><br><span class="line">          <span class="attr">name</span>: <span class="string">&#x27;上月&#x27;</span>,</span><br><span class="line">          <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">add</span>(-<span class="number">1</span>, <span class="string">&#x27;month&#x27;</span>).<span class="title function_">startOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>) ,</span><br><span class="line">          <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">add</span>(-<span class="number">1</span>, <span class="string">&#x27;month&#x27;</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">        &#125;,</span><br><span class="line">      ]</span><br><span class="line">      <span class="keyword">let</span> curMonth = <span class="title function_">dayjs</span>().<span class="title function_">month</span>() + <span class="number">1</span></span><br><span class="line">      <span class="keyword">if</span> (curMonth &lt; <span class="number">3</span>) &#123;</span><br><span class="line">        dateTimes.<span class="title function_">push</span>(</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">5</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;本季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">0</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">2</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          &#125;,</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">6</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;上季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">add</span>(-<span class="number">1</span>, <span class="string">&#x27;year&#x27;</span>).<span class="title function_">month</span>(<span class="number">9</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">add</span>(-<span class="number">1</span>, <span class="string">&#x27;year&#x27;</span>).<span class="title function_">month</span>(<span class="number">11</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          &#125;,</span><br><span class="line">        )</span><br><span class="line">      &#125; <span class="keyword">else</span> <span class="keyword">if</span> (curMonth &lt; <span class="number">6</span>) &#123;</span><br><span class="line">        dateTimes.<span class="title function_">push</span>(</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">5</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;本季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">3</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">5</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          &#125;,</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">6</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;上季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">0</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">2</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>) ,</span><br><span class="line">          &#125;,</span><br><span class="line">        )</span><br><span class="line">      &#125; <span class="keyword">else</span> <span class="keyword">if</span> (curMonth &lt; <span class="number">9</span>) &#123;</span><br><span class="line">        dateTimes.<span class="title function_">push</span>(</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">5</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;本季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">6</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">8</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          &#125;,</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">6</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;上季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">3</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">5</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          &#125;,</span><br><span class="line">        )</span><br><span class="line">      &#125; <span class="keyword">else</span> <span class="keyword">if</span> (curMonth &lt; <span class="number">12</span>) &#123;</span><br><span class="line">        dateTimes.<span class="title function_">push</span>(</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">5</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;本季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">9</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">11</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          &#125;,</span><br><span class="line">          &#123;</span><br><span class="line">            <span class="attr">id</span>: <span class="number">6</span>,</span><br><span class="line">            <span class="attr">name</span>: <span class="string">&#x27;上季度&#x27;</span>,</span><br><span class="line">            <span class="attr">start_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">6</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">            <span class="attr">end_time</span>: <span class="title function_">dayjs</span>().<span class="title function_">month</span>(<span class="number">8</span>).<span class="title function_">endOf</span>(<span class="string">&#x27;month&#x27;</span>).<span class="title function_">format</span>(<span class="string">&#x27;YYYY-MM-DD&#x27;</span>),</span><br><span class="line">          &#125;,</span><br><span class="line">        )</span><br><span class="line">      &#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>dayjs</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>window会全局注入$nuxt</title>
+    <url>/2022/08/23/window%E4%BC%9A%E5%85%A8%E5%B1%80%E6%B3%A8%E5%85%A5-nuxt/</url>
+    <content><![CDATA[<p><font size='2'>实例初始化完毕以后 nuxt 会在 window 全局注入$nuxt ，通过$nuxt.$store 可以访问 store，$nuxt.$router  可以访问到router，但是需要注意的是，初始化完毕以前是无法访问$nuxt的，所以需要再初始化完毕之后才能使用该方法。</font></p>
+<img src="http://flechazoblog.site:5006/img/cd3c0d80-22c5-11ed-91a3-e93966a3438d.png" width="200px" />
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>Nuxt3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>今天的雨真大</title>
+    <url>/2022/08/17/%E4%BB%8A%E5%A4%A9%E7%9A%84%E9%9B%A8%E7%9C%9F%E5%A4%A7/</url>
+    <content><![CDATA[<li style='font-size:14px;list-style: none;'>今天的雨真大</li>
+
+<span id="more"></span>
+<div style='display:flex;margin:20rpx 0'>
+<img src='http://flechazoblog.site:5006/img/30c4e730-1dff-11ed-8de2-71340cc62bd8.png' width='100%' height='100%' />
+<img src='http://flechazoblog.site:5006/img/2a0378d0-1dff-11ed-8de2-71340cc62bd8.png' width='100%' height='100%' />
+</div>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Nuxt3安装Tailwincss遇到的问题</title>
+    <url>/2022/08/22/Nuxt3%E5%AE%89%E8%A3%85Tailwincss%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h4 id="报错代码"><a href="#报错代码" class="headerlink" title="报错代码"></a>报错代码</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ ERROR  Cannot restart nuxt:  postcss@8 is not compatible with current version of nuxt (0.0.0). Expected: &gt;=2.15.3  </span><br></pre></td></tr></table></figure>
+<div style="font-size: 14px;">
+       根本原因是 <span style='color:skyblue'>https://tailwindcss.com/docs/guides/nuxtjs</span> 和 @nuxt/postcss8 仅适用于nuxtjs v2  不适用于Nuxt3。但如果您遵循本指南，仍然可以使用v3：不要使用@nuxt/postcss8目前仅适用于nuxtjs v2
+    </div>
+
+<span id="more"></span>
+
+<h4 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h4><div style="font-size: 14px;">
+1.把之前安装的 @nuxt/postcss8 去掉，重新npm i 或者 yarn
+</div>
+
+<div style="font-size: 14px;">
+2.更新您的trawind.config.js
+</div>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">content</span>: [</span><br><span class="line">    <span class="string">&#x27;./assets/**/*.&#123;vue,js,css&#125;&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;./components/**/*.&#123;vue,js&#125;&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;./layouts/**/*.vue&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;./pages/**/*.vue&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;./plugins/**/*.&#123;js,ts&#125;&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;./app.vue&#x27;</span>,</span><br><span class="line"></span><br><span class="line">    <span class="string">&#x27;./nuxt.config.&#123;js,ts&#125;&#x27;</span>,</span><br><span class="line">  ],</span><br><span class="line">  <span class="attr">variants</span>: &#123;</span><br><span class="line">    <span class="attr">extend</span>: &#123;&#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">plugins</span>: [],</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<div style="font-size: 14px;">
+3.更新
+</div>
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">  <span class="keyword">import</span> &#123; defineNuxtConfig &#125; <span class="keyword">from</span> <span class="string">&#x27;nuxt&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// https://v3.nuxtjs.org/docs/directory-structure/nuxt.config</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="title function_">defineNuxtConfig</span>(&#123;</span><br><span class="line">  <span class="attr">css</span>: [<span class="string">&#x27;~/assets/css/tailwind.css&#x27;</span>],</span><br><span class="line">  <span class="attr">build</span>: &#123;</span><br><span class="line">    <span class="attr">postcss</span>: &#123;</span><br><span class="line">      <span class="attr">postcssOptions</span>: <span class="built_in">require</span>(<span class="string">&#x27;./postcss.config.js&#x27;</span>),</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<div style="font-size: 14px;">
+* 之前版本不是在app.vue 中引入,app.vue 的代码是全局代码，现在也可以，不过不建议
+</div> 
+
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script setup&gt;</span><br><span class="line"><span class="keyword">import</span> <span class="string">&#x27;@/assets/css/tailwind.css&#x27;</span></span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>Nuxt3</tag>
+        <tag>Tailwincss</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>echarts使用geo制作地图tooltip不显示问题</title>
+    <url>/2023/02/13/%E5%85%B3%E4%BA%8Eecharts%E4%BD%BF%E7%94%A8geo%E5%88%B6%E4%BD%9C%E5%9C%B0%E5%9B%BEtooltip%E4%B8%8D%E6%98%BE%E7%A4%BA%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p><font size='2'> 我之前遇到过这问题，单独设置 tooltip 没效果，geo 下面也有 tooltip 属性，但是也不管用，网上查了一下</font></p>
+<div class="note default">
+            <p>default 提示块标签</p>
+          </div>
+<span id="more"></span>
+<div class="note primary">
+            <p>primary 提示块标签</p>
+          </div>
+<div class="note success">
+            <p>success 提示块标签</p>
+          </div>
+<div class="note info">
+            <p>info 提示块标签</p>
+          </div>
+<div class="note warning">
+            <p>warning 提示块标签</p>
+          </div>
+<div class="note danger">
+            <p>danger 提示块标签</p>
+          </div>
+<div class="note info no-icon">
+            <p>info 提示块标签</p>
+          </div>
+<p>说 geo 不支持 tooltip 提示框显示，就自己根据 echarts 配置项试了试，弄出两种方法</p>
+<h5 id="第一种就是-tooltip-全局设置一个，geo-下面-tooltip-在设置一个，两个都设置才管用，单独设置没效果"><a href="#第一种就是-tooltip-全局设置一个，geo-下面-tooltip-在设置一个，两个都设置才管用，单独设置没效果" class="headerlink" title="第一种就是 tooltip 全局设置一个，geo 下面 tooltip 在设置一个，两个都设置才管用，单独设置没效果"></a>第一种就是 tooltip 全局设置一个，geo 下面 tooltip 在设置一个，两个都设置才管用，单独设置没效果</h5><p><img src="http://flechazoblog.site:5006/img/82551f90-ac19-11ed-ba54-f90499da28ea.png" alt="图片 属性文本"><br><a href="https://markdown.com.cn/"><img src="http://flechazoblog.site:5006/img/82551f90-ac19-11ed-ba54-f90499da28ea.png" alt="沙漠中的岩石图片" title="Shiprock"></a><br><img src="http://flechazoblog.site:5006/img/82551f90-ac19-11ed-ba54-f90499da28ea.png" width="200px" /></p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>echarts</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>儿时想要的玩具罢了</title>
+    <url>/2022/08/20/%E5%84%BF%E6%97%B6%E6%83%B3%E8%A6%81%E7%9A%84%E7%8E%A9%E5%85%B7%E7%BD%A2%E4%BA%86/</url>
+    <content><![CDATA[<li style='font-size:14px;list-style: none;'>还是挺不错的</li>
+
+<span id="more"></span>
+
+<div style='display:flex;margin:20rpx 0'>
+<img src='http://flechazoblog.site:5006/img/47aec5f0-2067-11ed-b346-4bb5a712f13d.png' width='100%' height='100%' />
+<img src='http://flechazoblog.site:5006/img/4b6b31b0-2067-11ed-b346-4bb5a712f13d.png' width='100%' height='100%' />
+<img src='http://flechazoblog.site:5006/img/4fae59a0-2067-11ed-b346-4bb5a712f13d.png' width='100%' height='100%' />
+</div>
+<div style='display:flex'>
+<img src='http://flechazoblog.site:5006/img/56817b40-2067-11ed-b346-4bb5a712f13d.png' width='100%' height='100%' /><img src='http://flechazoblog.site:5006/img/5a7faaf0-2067-11ed-b346-4bb5a712f13d.png' width='100%' height='100%' /><img src='http://flechazoblog.site:5006/img/5e06d5e0-2067-11ed-b346-4bb5a712f13d.png' width='100%' height='100%' />
+</div>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>回忆</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端性能优化之雅虎35条军规</title>
+    <url>/2022/11/07/%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E9%9B%85%E8%99%8E35%E6%9D%A1%E5%86%9B%E8%A7%84/</url>
+    <content><![CDATA[<h5 >一、页面内容</h5>
+<ol>
+<li style='font-size:14px'>减少HTTP请求数</li>
+<li style='font-size:14px'>减少DNS查询</li>
+<li style='font-size:14px'>避免重定向</li>
+<li style='font-size:14px'>缓存Ajax请求</li>
+<li style='font-size:14px'>延迟加载</li>
+<li style='font-size:14px'>预加载</li>
+<li style='font-size:14px'>减少DOM元素数量</li>
+<li style='font-size:14px'>划分内容到不同域名</li>
+<li style='font-size:14px'>尽量减少iframe的使用</li>
+<li style='font-size:14px'>避免404错误</li>
+</ol>
+<span id="more"></span>
+
+
+<h5 >二、服务器</h5>
+<ol>
+<li style='font-size:14px'>使用CDN</li>
+<li style='font-size:14px'>添加Expires或Cache-Control响应头</li>
+<li style='font-size:14px'>启用Gzip</li>
+<li style='font-size:14px'>配置 Etag</li>
+<li style='font-size:14px'>尽早输出（flush）缓冲</li>
+<li style='font-size:14px'>Ajax请求使用GET方法</li>
+<li style='font-size:14px'>避免图片src为空</li>
+</ol>
+
+
+<h5 >三、Cookie</h5>
+<ol>
+<li style='font-size:14px'>减少 Cookie 大小</li>
+<li style='font-size:14px'>静态资源使用无Cookie域名</li>
+</ol>
+
+
+<h5>四、CSS</h5>
+<ol>
+<li style='font-size:14px'>把样式表放在<code>&lt;head&gt;</code>中</li>
+<li style='font-size:14px'>不要使用CSS表达式</li>
+<li style='font-size:14px'>使用<code>&lt;link&gt;</code>替代<code>@import</code></li>
+<li style='font-size:14px'>不要使用 filter</li>
+</ol>
+
+<h5>五、Javasript</h5>
+<ol>
+<li style='font-size:14px'>把脚本放在页面底部</li>
+<li style='font-size:14px'>使用外部JavaScript和CSS</li>
+<li style='font-size:14px'>压缩JavaScript和CSS</li>
+<li style='font-size:14px'>移除重复脚本</li>
+<li style='font-size:14px'>减少DOM操作</li>
+<li style='font-size:14px'>使用高效的事件处理</li>
+</ol>
+
+<h5>六、图片</h5>
+<ol>
+<li style='font-size:14px'>优化图片(同质压缩，精灵图)</li>
+<li style='font-size:14px'>优化CSS Sprite</li>
+<li style='font-size:14px'>不要在HTML中缩放图片</li>
+<li style='font-size:14px'>使用体积小、可缓存的favicon.ico</li>
+</ol>
+
+<h5>七、移动端</h5>
+<ol>
+<li style='font-size:14px'>保证所有组件都小于25K</li>
+<li style='font-size:14px'>打包内容为分段（multipart）文档</li>
+</ol>
+
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>性能优化</tag>
+        <tag>雅虎35条军规</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>获取客户端FPS</title>
+    <url>/2022/08/16/%E8%8E%B7%E5%8F%96%E5%AE%A2%E6%88%B7%E7%AB%AFFPS/</url>
+    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">;(<span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line"><span class="keyword">var</span> requestAnimationFrame = <span class="variable language_">window</span>.<span class="property">requestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">webkitRequestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">mozRequestAnimationFrame</span> ||</span><br><span class="line">    <span class="variable language_">window</span>.<span class="property">oRequestAnimationFrame</span> || <span class="variable language_">window</span>.<span class="property">msRequestAnimationFrame</span> || <span class="keyword">function</span> (<span class="params">callback</span>) &#123;</span><br><span class="line">        <span class="variable language_">window</span>.<span class="built_in">setTimeout</span>(callback, <span class="number">1000</span> / <span class="number">60</span>);</span><br><span class="line">    &#125;;</span><br><span class="line"><span class="keyword">var</span> fps, last, offset, step, appendFps;</span><br><span class="line">fps = <span class="number">0</span>;</span><br><span class="line">last = <span class="title class_">Date</span>.<span class="title function_">now</span>();</span><br><span class="line">step = <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">    offset = <span class="title class_">Date</span>.<span class="title function_">now</span>() - last;</span><br><span class="line">    fps += <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span> (offset &gt;= <span class="number">1000</span>) &#123;</span><br><span class="line">        last += offset;</span><br><span class="line">        <span class="title function_">appendFps</span>(fps);</span><br><span class="line">        fps = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="title function_">requestAnimationFrame</span>(step);</span><br><span class="line">&#125;;</span><br><span class="line">appendFps = <span class="keyword">function</span> (<span class="params">fps</span>) &#123;</span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;#fps&#x27;</span>).<span class="property">innerHTML</span> = fps + <span class="string">&#x27;FPS&#x27;</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="title function_">step</span>();</span><br><span class="line">&#125;)();</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>FPS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手写防抖节流</title>
+    <url>/2023/02/18/%E6%89%8B%E5%86%99%E9%98%B2%E6%8A%96%E8%8A%82%E6%B5%81/</url>
+    <content><![CDATA[<h4 id="防抖"><a href="#防抖" class="headerlink" title="防抖"></a>防抖</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">debounce</span>(<span class="params">fn, delay</span>) &#123;</span><br><span class="line">  <span class="keyword">let</span> timer</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params">...args</span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> (timer) &#123;</span><br><span class="line">      <span class="built_in">clearTimeout</span>(timer)</span><br><span class="line">    &#125;</span><br><span class="line">    timer = <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">      fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, args)</span><br><span class="line">    &#125;, delay)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+  <span id="more"></span>
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">task</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;debounce test&#x27;</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> debounceFn = <span class="title function_">debounce</span>(task, <span class="number">1000</span>)</span><br><span class="line"><span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, debounceFn)</span><br></pre></td></tr></table></figure>
+
+
+<h4 id="节流"><a href="#节流" class="headerlink" title="节流"></a>节流</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">throttle</span>(<span class="params">fn, delay</span>) &#123;</span><br><span class="line">  <span class="keyword">let</span> last = <span class="number">0</span> <span class="comment">// 上次触发时间</span></span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">function</span> (<span class="params">...args</span>) &#123;</span><br><span class="line">    <span class="keyword">const</span> now = <span class="title class_">Date</span>.<span class="title function_">now</span>()</span><br><span class="line">    <span class="keyword">if</span> (now - last &gt; delay) &#123;</span><br><span class="line">      last = now</span><br><span class="line">      fn.<span class="title function_">apply</span>(<span class="variable language_">this</span>, args)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">task</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;throttle test&#x27;</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">const</span> throttleFn = <span class="title function_">throttle</span>(task, <span class="number">1000</span>)</span><br><span class="line"><span class="variable language_">window</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, throttleFn )</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>手写函数</tag>
+      </tags>
+  </entry>
+</search>
